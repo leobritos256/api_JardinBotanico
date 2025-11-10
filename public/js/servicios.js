@@ -134,7 +134,7 @@ async function editarServicio(id) {
     document.getElementById('nombreServicio').value = servicio.nombre;
     document.getElementById('tipoServicio').value = servicio.tipo;
     document.getElementById('descripcionServicio').value = servicio.descripcion;
-    document.getElementById('zonaAsociada').value = servicio.zonaAsociada._id;
+    document.getElementById('zonaAsociada').value = servicio.zonaAsociada ? servicio.zonaAsociada._id : '';
     document.getElementById('estadoServicio').value = servicio.estado;
     document.getElementById('latitudServicio').value = servicio.ubicacion.coordenadas.latitud;
     document.getElementById('longitudServicio').value = servicio.ubicacion.coordenadas.longitud;

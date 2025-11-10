@@ -122,7 +122,7 @@ const servicioController = {
       const zonaNueva = req.body.zonaAsociada;
       
       // Si cambia la zona, verificar que existe
-      if (zonaNueva && zonaAnterior.toString() !== zonaNueva.toString()) {
+      if (zonaNueva && zonaAnterior && zonaAnterior.toString() !== zonaNueva.toString()) {
         const zona = await Zona.findById(zonaNueva);
         if (!zona) {
           return res.status(404).json({
