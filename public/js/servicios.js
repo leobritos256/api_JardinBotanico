@@ -113,6 +113,10 @@ function configurarFormulario() {
         const method = servicioId ? 'PUT' : 'POST';
         const endpoint = servicioId ? `/servicios/${servicioId}` : '/servicios';
         
+        if (!servicioData.zonaAsociada) {
+            return showNotification('Por favor, seleccione una zona para el servicio.', 'error');
+        }
+
         const result = await fetchAPI(endpoint, {
             method,
             body: JSON.stringify(servicioData)

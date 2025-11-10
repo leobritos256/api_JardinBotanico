@@ -4,12 +4,13 @@ const API_BASE_URL = '/api';
 // Función para hacer peticiones a la API
 async function fetchAPI(endpoint, options = {}) {
     try {
+        const { headers, ...restOfOptions } = options;
         const response = await fetch(`${API_BASE_URL}${endpoint}`, {
             headers: {
                 'Content-Type': 'application/json',
-                ...options.headers
+                ...headers
             },
-            ...options
+            ...restOfOptions
         });
 
         if (response.status === 401) {
