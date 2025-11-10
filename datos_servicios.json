@@ -1,0 +1,492 @@
+[
+  {
+    "nombre": "Plaza de Juegos Infantiles Los Algarrobos",
+    "tipo": "Juego",
+    "descripcion": "Área de juegos con toboganes, hamacas, sube y baja, trepadoras y juegos didácticos para niños de 2 a 12 años. Superficie de goma sintética para mayor seguridad. Zona de sombra con pérgolas.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4161,
+        "longitud": -64.1836
+      },
+      "referencia": "Cerca del Jardín de Rosas, sector este"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "19:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": false
+    },
+    "amenidades": {
+      "techado": false,
+      "iluminado": true,
+      "wifi": false,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Kiosco La Flor",
+    "tipo": "Kiosco",
+    "descripcion": "Kiosco con bebidas frías y calientes, snacks saludables, helados artesanales y souvenirs del parque. Productos orgánicos locales. WiFi gratuito para clientes. Acepta efectivo y tarjetas.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4166,
+        "longitud": -64.1826
+      },
+      "referencia": "Entrada principal del parque, junto a la boletería"
+    },
+    "horario": {
+      "apertura": "09:00",
+      "cierre": "18:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": true,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": true,
+      "precio": 500,
+      "moneda": "ARS"
+    }
+  },
+  {
+    "nombre": "Sendero Interpretativo del Bosque Nativo",
+    "tipo": "Paseo",
+    "descripcion": "Recorrido guiado de 2 km por el bosque nativo con señalización educativa sobre las especies locales, fauna y ecosistema chaqueño. Incluye estaciones de observación y paneles interpretativos. Duración aproximada: 1 hora.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4172,
+        "longitud": -64.1848
+      },
+      "referencia": "Inicio en el Bosque Nativo Cordobés, sector oeste"
+    },
+    "horario": {
+      "apertura": "10:00",
+      "cierre": "17:00",
+      "diasDisponibles": ["Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": false,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": false,
+      "iluminado": false,
+      "wifi": false,
+      "aguaPotable": false
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Sanitarios Públicos - Sector Norte",
+    "tipo": "Baño",
+    "descripcion": "Baños públicos con instalaciones modernas y accesibles. Incluye cambiadores para bebés, baños adaptados para personas con movilidad reducida y agua caliente. Mantenimiento permanente.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4159,
+        "longitud": -64.1833
+      },
+      "referencia": "Junto al Jardín de Cactáceas, sector norte"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "20:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": false,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Sanitarios Públicos - Sector Sur",
+    "tipo": "Baño",
+    "descripcion": "Baños públicos ecológicos con sistemas de ahorro de agua y energía solar. Incluye cambiadores para bebés y baños adaptados. Productos de higiene sustentables.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4164,
+        "longitud": -64.1839
+      },
+      "referencia": "Cerca del Jardín de Aromáticas, sector sur"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "20:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": false,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Área de Picnic El Algarrobal",
+    "tipo": "Paseo",
+    "descripcion": "Amplia zona de picnic con mesas, bancos y parrillas para uso público. Área de sombra natural bajo algarrobos centenarios. Ideal para reuniones familiares y escolares. Capacidad para 100 personas.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4173,
+        "longitud": -64.1846
+      },
+      "referencia": "Dentro del Bosque Nativo, zona de mayor sombra"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "19:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": false,
+      "iluminado": false,
+      "wifi": false,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Recorrido en Carrito Eléctrico",
+    "tipo": "Paseo",
+    "descripcion": "Tour guiado de 45 minutos por las principales zonas del parque en carrito eléctrico ecológico. Incluye paradas en Jardín de Rosas, Invernadero Tropical y Bosque Nativo. Cupo limitado a 12 personas. Reserva anticipada recomendada.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4165,
+        "longitud": -64.1824
+      },
+      "referencia": "Punto de partida en la entrada principal"
+    },
+    "horario": {
+      "apertura": "10:00",
+      "cierre": "17:00",
+      "diasDisponibles": ["Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": false,
+      "wifi": false,
+      "aguaPotable": false
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": true,
+      "precio": 2000,
+      "moneda": "ARS"
+    }
+  },
+  {
+    "nombre": "Estacionamiento Principal",
+    "tipo": "Estacionamiento",
+    "descripcion": "Estacionamiento con capacidad para 150 vehículos: 120 autos, 20 motos y 10 espacios reservados para personas con discapacidad. Incluye bicicletero techado. Vigilancia permanente.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4167,
+        "longitud": -64.1822
+      },
+      "referencia": "200 metros antes de la entrada principal"
+    },
+    "horario": {
+      "apertura": "07:30",
+      "cierre": "20:30",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": false,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": false,
+      "iluminado": true,
+      "wifi": false,
+      "aguaPotable": false
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": true,
+      "precio": 500,
+      "moneda": "ARS"
+    }
+  },
+  {
+    "nombre": "Centro de Interpretación Ambiental",
+    "tipo": "Educativo",
+    "descripcion": "Espacio educativo con exposiciones interactivas sobre flora nativa, conservación, biodiversidad y cambio climático. Incluye sala de proyecciones, biblioteca especializada y microscopios para observación. Talleres gratuitos los fines de semana.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4163,
+        "longitud": -64.1828
+      },
+      "referencia": "Edificio principal junto a la Plaza de los Jacarandás"
+    },
+    "horario": {
+      "apertura": "10:00",
+      "cierre": "18:00",
+      "diasDisponibles": ["Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": true,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Vivero de Plantas Nativas",
+    "tipo": "Comercial",
+    "descripcion": "Vivero de producción y venta de plantas nativas para conservación y jardinería sustentable. Más de 50 especies disponibles. Asesoramiento técnico gratuito. Descuentos especiales para instituciones educativas y proyectos de reforestación.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4162,
+        "longitud": -64.1827
+      },
+      "referencia": "Sector sur, junto a la Huerta Educativa"
+    },
+    "horario": {
+      "apertura": "09:00",
+      "cierre": "17:00",
+      "diasDisponibles": ["Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": false,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": false,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": true,
+      "precio": 300,
+      "moneda": "ARS"
+    }
+  },
+  {
+    "nombre": "Mirador Panorámico Las Sierras",
+    "tipo": "Mirador",
+    "descripcion": "Torre de observación de 12 metros de altura con vista 360° del parque y las Sierras de Córdoba. Incluye telescopios de observación, cartelería informativa y bancos. Ideal para fotografía de paisajes y avistamiento de aves.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4157,
+        "longitud": -64.1831
+      },
+      "referencia": "Punto más elevado del parque, sector norte"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "18:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": false,
+      "aptoNinos": true,
+      "aptoAdultosMayores": false
+    },
+    "amenidades": {
+      "techado": false,
+      "iluminado": false,
+      "wifi": false,
+      "aguaPotable": false
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Taller de Compostaje Comunitario",
+    "tipo": "Educativo",
+    "descripcion": "Espacio educativo de producción de compost orgánico. Talleres prácticos gratuitos todos los sábados sobre compostaje doméstico, lombricultura y huerta orgánica. Los participantes reciben compost gratuito. Inscripción previa requerida.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4162,
+        "longitud": -64.1828
+      },
+      "referencia": "Junto a la Huerta Educativa, sector sur"
+    },
+    "horario": {
+      "apertura": "10:00",
+      "cierre": "13:00",
+      "diasDisponibles": ["Sábado"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": false,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Oficina de Información Turística",
+    "tipo": "Información",
+    "descripcion": "Punto de información con personal especializado. Mapas gratuitos del parque, folletería sobre flora y fauna, atención en español e inglés. Servicio de objetos perdidos. Reservas para tours y talleres.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4166,
+        "longitud": -64.1825
+      },
+      "referencia": "Edificio de entrada principal, primer contacto al ingresar"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "19:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": true,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  },
+  {
+    "nombre": "Cafetería El Jardín",
+    "tipo": "Kiosco",
+    "descripcion": "Cafetería con mesas al aire libre y vista al Jardín de Rosas. Menú de cafetería completo: desayunos, almuerzos ligeros, tortas caseras y bebidas. Opciones vegetarianas y veganas. WiFi gratuito.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4161,
+        "longitud": -64.1834
+      },
+      "referencia": "Frente al Jardín de Rosas, con vista panorámica"
+    },
+    "horario": {
+      "apertura": "09:00",
+      "cierre": "18:00",
+      "diasDisponibles": ["Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": true,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": true,
+      "iluminado": true,
+      "wifi": true,
+      "aguaPotable": true
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": true,
+      "precio": 3500,
+      "moneda": "ARS"
+    }
+  },
+  {
+    "nombre": "Circuito de Bicicletas",
+    "tipo": "Paseo",
+    "descripcion": "Circuito de 3 km para ciclismo recreativo que recorre las principales zonas del parque. Sendero señalizado de tierra compactada. Alquiler de bicicletas disponible en la entrada (no incluido). Uso de casco obligatorio.",
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4170,
+        "longitud": -64.1840
+      },
+      "referencia": "Inicio en la entrada principal, recorre todo el perímetro"
+    },
+    "horario": {
+      "apertura": "08:00",
+      "cierre": "19:00",
+      "diasDisponibles": ["Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]
+    },
+    "accesibilidad": {
+      "adaptadoMovilidadReducida": false,
+      "aptoNinos": true,
+      "aptoAdultosMayores": true
+    },
+    "amenidades": {
+      "techado": false,
+      "iluminado": false,
+      "wifi": false,
+      "aguaPotable": false
+    },
+    "estado": "Disponible",
+    "costoAdicional": {
+      "tieneCosto": false
+    }
+  }
+]

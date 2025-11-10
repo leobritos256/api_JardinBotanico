@@ -1,0 +1,77 @@
+<div class="page-container">
+    <div class="page-header">
+        <h1><i class="fas fa-map"></i> Mapa Interactivo del Parque</h1>
+    </div>
+
+    <div class="map-info">
+        <p><i class="fas fa-info-circle"></i> Visualización de zonas, especies y servicios del Parque Botánico</p>
+    </div>
+
+    <!-- Estadísticas -->
+    <div class="map-stats">
+        <div class="stat-box">
+            <i class="fas fa-map-marked-alt"></i>
+            <h4 id="mapZonasCount">0</h4>
+            <p>Zonas mapeadas</p>
+        </div>
+        <div class="stat-box">
+            <i class="fas fa-seedling"></i>
+            <h4 id="mapEspeciesCount">0</h4>
+            <p>Especies ubicadas</p>
+        </div>
+        <div class="stat-box">
+            <i class="fas fa-concierge-bell"></i>
+            <h4 id="mapServiciosCount">0</h4>
+            <p>Servicios disponibles</p>
+        </div>
+    </div>
+
+    <div class="map-container">
+        <!-- Mapa de Leaflet -->
+        <div id="map" style="height: 500px; width: 100%; border-radius: 8px;"></div>
+        
+        <!-- Leyenda y Filtros -->
+        <div class="map-legend">
+            <h3><i class="fas fa-list"></i> Leyenda</h3>
+            <div class="legend-item">
+                <span class="legend-marker zonas"></span>
+                <span>Zonas</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-marker especies"></span>
+                <span>Especies</span>
+            </div>
+            <div class="legend-item">
+                <span class="legend-marker servicios"></span>
+                <span>Servicios</span>
+            </div>
+            
+            <hr style="margin: 15px 0;">
+            
+            <h3><i class="fas fa-filter"></i> Filtros</h3>
+            <div style="margin-top: 10px;">
+                <label style="display: block; margin-bottom: 8px; cursor: pointer;">
+                    <input type="checkbox" id="toggleZonas" checked> 
+                    <span style="margin-left: 5px;">Mostrar Zonas</span>
+                </label>
+                <label style="display: block; margin-bottom: 8px; cursor: pointer;">
+                    <input type="checkbox" id="toggleEspecies" checked> 
+                    <span style="margin-left: 5px;">Mostrar Especies</span>
+                </label>
+                <label style="display: block; margin-bottom: 8px; cursor: pointer;">
+                    <input type="checkbox" id="toggleServicios" checked> 
+                    <span style="margin-left: 5px;">Mostrar Servicios</span>
+                </label>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Leaflet CSS -->
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+
+<!-- Leaflet JS -->
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+
+<!-- Tu script del mapa -->
+<script src="/js/mapa.js"></script>

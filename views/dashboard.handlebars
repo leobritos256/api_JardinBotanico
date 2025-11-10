@@ -1,0 +1,110 @@
+<div class="dashboard">
+    <div class="page-header">
+        <h1><i class="fas fa-chart-line"></i> Panel de Control</h1>
+        <p class="subtitle">Bienvenido al sistema de gestión del Parque Botánico de Córdoba</p>
+    </div>
+
+    <div class="stats-container" id="statsContainer">
+        <div class="stat-card">
+            <div class="stat-icon zonas">
+                <i class="fas fa-map-marked-alt"></i>
+            </div>
+            <div class="stat-info">
+                <h3 id="totalZonas">-</h3>
+                <p>Zonas</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon especies">
+                <i class="fas fa-seedling"></i>
+            </div>
+            <div class="stat-info">
+                <h3 id="totalEspecies">-</h3>
+                <p>Especies</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon servicios">
+                <i class="fas fa-concierge-bell"></i>
+            </div>
+            <div class="stat-info">
+                <h3 id="totalServicios">-</h3>
+                <p>Servicios</p>
+            </div>
+        </div>
+
+        <div class="stat-card">
+            <div class="stat-icon disponibles">
+                <i class="fas fa-check-circle"></i>
+            </div>
+            <div class="stat-info">
+                <h3 id="serviciosDisponibles">-</h3>
+                <p>Servicios Disponibles</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="dashboard-grid">
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2><i class="fas fa-globe-americas"></i> Especies por Continente</h2>
+            </div>
+            <div class="card-body" id="especiesPorContinente">
+                <div class="loading">Cargando datos...</div>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2><i class="fas fa-tree"></i> Tipos de Especies</h2>
+            </div>
+            <div class="card-body" id="tiposEspecies">
+                <div class="loading">Cargando datos...</div>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2><i class="fas fa-exclamation-triangle"></i> Especies en Riesgo</h2>
+            </div>
+            <div class="card-body" id="especiesEnPeligro">
+                <div class="loading">Cargando datos...</div>
+            </div>
+        </div>
+
+        <div class="dashboard-card">
+            <div class="card-header">
+                <h2><i class="fas fa-shapes"></i> Tipos de Servicios</h2>
+            </div>
+            <div class="card-body" id="tiposServicios">
+                <div class="loading">Cargando datos...</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="quick-actions">
+        <h2><i class="fas fa-bolt"></i> Acciones Rápidas</h2>
+        <div class="action-buttons">
+            <a href="/zonas" class="action-btn zonas-btn">
+                <i class="fas fa-plus-circle"></i>
+                <span>Agregar Zona</span>
+            </a>
+            <a href="/especies" class="action-btn especies-btn">
+                <i class="fas fa-plus-circle"></i>
+                <span>Agregar Especie</span>
+            </a>
+            <a href="/servicios" class="action-btn servicios-btn">
+                <i class="fas fa-plus-circle"></i>
+                <span>Agregar Servicio</span>
+            </a>
+            <a href="/mapa" class="action-btn mapa-btn">
+                <i class="fas fa-map"></i>
+                <span>Ver Mapa</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="/js/dashboard.js"></script>

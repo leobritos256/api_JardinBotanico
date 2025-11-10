@@ -1,0 +1,90 @@
+<div class="page-container">
+    <div class="page-header">
+        <h1><i class="fas fa-seedling"></i> Gestión de Especies</h1>
+        <button class="btn btn-primary" onclick="showModal('createEspecieModal')">
+            <i class="fas fa-plus"></i> Nueva Especie
+        </button>
+    </div>
+
+    <div class="filters">
+        <select id="filterTipo" class="filter-select" onchange="filterEspecies()">
+            <option value="">Todos los tipos</option>
+            <option value="Árbol">Árbol</option>
+            <option value="Arbusto">Arbusto</option>
+            <option value="Hierba">Hierba</option>
+            <option value="Trepadora">Trepadora</option>
+        </select>
+        <input type="text" id="searchEspecie" class="search-input" placeholder="Buscar especie..." onkeyup="filterEspecies()">
+    </div>
+
+    <div id="especiesContainer" class="cards-container">
+        <div class="loading-message">Cargando especies...</div>
+    </div>
+</div>
+
+<!-- Modal para crear/editar especie -->
+<div id="createEspecieModal" class="modal">
+    <div class="modal-content large-modal">
+        <div class="modal-header">
+            <h2><i class="fas fa-seedling"></i> Nueva Especie</h2>
+            <span class="close" onclick="closeModal('createEspecieModal')">&times;</span>
+        </div>
+        <form id="especieForm" class="modal-form">
+            <input type="hidden" id="especieId">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombreComun">Nombre Común *</label>
+                    <input type="text" id="nombreComun" required>
+                </div>
+                <div class="form-group">
+                    <label for="nombreCientifico">Nombre Científico *</label>
+                    <input type="text" id="nombreCientifico" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="familia">Familia *</label>
+                    <input type="text" id="familia" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipoEspecie">Tipo *</label>
+                    <select id="tipoEspecie" required>
+                        <option value="">Seleccionar...</option>
+                        <option value="Árbol">Árbol</option>
+                        <option value="Arbusto">Arbusto</option>
+                        <option value="Hierba">Hierba</option>
+                        <option value="Trepadora">Trepadora</option>
+                        <option value="Suculenta">Suculenta</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="descripcionEspecie">Descripción *</label>
+                <textarea id="descripcionEspecie" rows="3" required></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="continente">Continente *</label>
+                    <select id="continente" required>
+                        <option value="">Seleccionar...</option>
+                        <option value="América">América</option>
+                        <option value="Europa">Europa</option>
+                        <option value="Asia">Asia</option>
+                        <option value="África">África</option>
+                        <option value="Oceanía">Oceanía</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="pais">País *</label>
+                    <input type="text" id="pais" required>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('createEspecieModal')">Cancelar</button>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/especies.js"></script>

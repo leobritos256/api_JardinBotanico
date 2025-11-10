@@ -1,0 +1,96 @@
+<div class="page-container">
+    <div class="page-header">
+        <h1><i class="fas fa-concierge-bell"></i> Gestión de Servicios</h1>
+        <button class="btn btn-primary" onclick="showModal('createServicioModal')">
+            <i class="fas fa-plus"></i> Nuevo Servicio
+        </button>
+    </div>
+
+    <div class="filters">
+        <select id="filterTipo" class="filter-select" onchange="filterServicios()">
+            <option value="">Todos los tipos</option>
+            <option value="Juego">Juego</option>
+            <option value="Kiosco">Kiosco</option>
+            <option value="Paseo">Paseo</option>
+            <option value="Baño">Baño</option>
+            <option value="Banco">Banco</option>
+        </select>
+        <select id="filterEstado" class="filter-select" onchange="filterServicios()">
+            <option value="">Todos los estados</option>
+            <option value="Disponible">Disponible</option>
+            <option value="No disponible">No disponible</option>
+            <option value="Mantenimiento">Mantenimiento</option>
+        </select>
+    </div>
+
+    <div id="serviciosContainer" class="cards-container">
+        <div class="loading-message">Cargando servicios...</div>
+    </div>
+</div>
+
+<div id="createServicioModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2><i class="fas fa-concierge-bell"></i> Nuevo Servicio</h2>
+            <span class="close" onclick="closeModal('createServicioModal')">&times;</span>
+        </div>
+        <form id="servicioForm" class="modal-form">
+            <input type="hidden" id="servicioId">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombreServicio">Nombre *</label>
+                    <input type="text" id="nombreServicio" required>
+                </div>
+                <div class="form-group">
+                    <label for="tipoServicio">Tipo *</label>
+                    <select id="tipoServicio" required>
+                        <option value="">Seleccionar...</option>
+                        <option value="Juego">Juego</option>
+                        <option value="Kiosco">Kiosco</option>
+                        <option value="Paseo">Paseo</option>
+                        <option value="Baño">Baño</option>
+                        <option value="Banco">Banco</option>
+                        <option value="Fuente">Fuente</option>
+                        <option value="Mirador">Mirador</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="descripcionServicio">Descripción *</label>
+                <textarea id="descripcionServicio" rows="3" required></textarea>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="zonaAsociada">Zona *</label>
+                    <select id="zonaAsociada" required>
+                        <option value="">Cargando zonas...</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="estadoServicio">Estado *</label>
+                    <select id="estadoServicio" required>
+                        <option value="Disponible">Disponible</option>
+                        <option value="No disponible">No disponible</option>
+                        <option value="Mantenimiento">Mantenimiento</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="latitudServicio">Latitud *</label>
+                    <input type="number" id="latitudServicio" step="0.000001" required>
+                </div>
+                <div class="form-group">
+                    <label for="longitudServicio">Longitud *</label>
+                    <input type="number" id="longitudServicio" step="0.000001" required>
+                </div>
+            </div>
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('createServicioModal')">Cancelar</button>
+                <button type="submit" class="btn btn-primary"><i class="fas fa-save"></i> Guardar</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/servicios.js"></script>

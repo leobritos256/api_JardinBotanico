@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{title}}</title>
+    <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    {{#if isAuthenticated}}
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <i class="fas fa-leaf"></i>
+                <span>Parque Botánico de Córdoba</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="/dashboard" class="nav-link"><i class="fas fa-home"></i> Dashboard</a></li>
+                <li><a href="/zonas" class="nav-link"><i class="fas fa-map-marked-alt"></i> Zonas</a></li>
+                <li><a href="/especies" class="nav-link"><i class="fas fa-seedling"></i> Especies</a></li>
+                <li><a href="/servicios" class="nav-link"><i class="fas fa-concierge-bell"></i> Servicios</a></li>
+                <li><a href="/mapa" class="nav-link"><i class="fas fa-map"></i> Mapa</a></li>
+            </ul>
+            <div class="nav-user">
+                <span class="username"><i class="fas fa-user-circle"></i> {{username}}</span>
+                <button onclick="logout()" class="btn-logout">
+                    <i class="fas fa-sign-out-alt"></i> Cerrar Sesión
+                </button>
+            </div>
+        </div>
+    </nav>
+    {{/if}}
+
+    <main class="main-content">
+        {{{body}}}
+    </main>
+
+    {{#if isAuthenticated}}
+    <footer class="footer">
+        <div class="footer-content">
+            <p>&copy; 2024 Parque Botánico de Córdoba - Sistema de Gestión</p>
+            <p>Desarrollado por Grupo Parque Botánico</p>
+        </div>
+    </footer>
+    {{/if}}
+
+    <script src="/js/main.js"></script>
+</body>
+</html>

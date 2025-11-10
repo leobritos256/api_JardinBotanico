@@ -1,0 +1,557 @@
+[
+  {
+    "nombreComun": "Algarrobo blanco",
+    "nombreCientifico": "Prosopis alba",
+    "familia": "Fabaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Región Chaqueña"
+    },
+    "descripcion": "Árbol nativo de gran porte, característico del bosque chaqueño. Sus vainas comestibles fueron alimento básico de pueblos originarios. Puede alcanzar hasta 15 metros de altura. Madera muy apreciada por su dureza y resistencia.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 8,
+        "maxima": 15
+      },
+      "tipo": "Árbol",
+      "floracion": {
+        "epoca": "Primavera",
+        "color": "Amarillo verdoso"
+      },
+      "fruto": {
+        "tipo": "Vaina",
+        "comestible": true
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Compuesta bipinnada"
+      }
+    },
+    "cuidados": {
+      "riego": "Bajo",
+      "luz": "Sol directo",
+      "suelo": "Arenoso, bien drenado"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Ceibo",
+    "nombreCientifico": "Erythrina crista-galli",
+    "familia": "Fabaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Litoral"
+    },
+    "descripcion": "Flor nacional argentina y uruguaya. Árbol de mediano porte con flores rojas espectaculares en forma de cresta de gallo. Sus flores son visitadas por colibríes, loros y otras aves. Crece naturalmente en las riberas de ríos y arroyos.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 3,
+        "maxima": 8
+      },
+      "tipo": "Árbol",
+      "floracion": {
+        "epoca": "Primavera-Verano",
+        "color": "Rojo intenso"
+      },
+      "fruto": {
+        "tipo": "Legumbre",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Compuesta trifoliada"
+      }
+    },
+    "cuidados": {
+      "riego": "Moderado",
+      "luz": "Sol directo",
+      "suelo": "Rico en nutrientes, tolera encharcamientos temporales"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "Levemente tóxica"
+  },
+  {
+    "nombreComun": "Jacarandá",
+    "nombreCientifico": "Jacaranda mimosifolia",
+    "familia": "Bignoniaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Noroeste"
+    },
+    "descripcion": "Árbol ornamental muy apreciado por sus flores violetas que cubren completamente el árbol en primavera, creando una alfombra violeta bajo su copa. Emblemático de muchas ciudades argentinas como Buenos Aires y Córdoba.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 8,
+        "maxima": 15
+      },
+      "tipo": "Árbol",
+      "floracion": {
+        "epoca": "Primavera",
+        "color": "Violeta azulado"
+      },
+      "fruto": {
+        "tipo": "Cápsula leñosa",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Bipinnada"
+      }
+    },
+    "cuidados": {
+      "riego": "Moderado",
+      "luz": "Sol directo",
+      "suelo": "Bien drenado, tolera suelos pobres"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Tala",
+    "nombreCientifico": "Celtis ehrenbergiana",
+    "familia": "Cannabaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Región Pampeana y Chaqueña"
+    },
+    "descripcion": "Árbol nativo de mediano porte, muy resistente y adaptable. Sus frutos pequeños y dulces son consumidos por aves y fueron utilizados por pueblos originarios. Excelente para reforestación y cortinas forestales.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 6,
+        "maxima": 12
+      },
+      "tipo": "Árbol",
+      "floracion": {
+        "epoca": "Primavera",
+        "color": "Amarillo verdoso"
+      },
+      "fruto": {
+        "tipo": "Drupa",
+        "comestible": true
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Simple, aserrada"
+      }
+    },
+    "cuidados": {
+      "riego": "Bajo",
+      "luz": "Sol directo a media sombra",
+      "suelo": "Poco exigente, tolera diversos tipos de suelo"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Espinillo",
+    "nombreCientifico": "Acacia caven",
+    "familia": "Fabaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Región Pampeana"
+    },
+    "descripcion": "Árbol espinoso de pequeño a mediano porte, característico de la pampa húmeda. Sus flores amarillas y perfumadas atraen gran cantidad de insectos polinizadores. Muy utilizado como leña y para postes de alambrados.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 3,
+        "maxima": 8
+      },
+      "tipo": "Árbol",
+      "floracion": {
+        "epoca": "Primavera",
+        "color": "Amarillo intenso"
+      },
+      "fruto": {
+        "tipo": "Legumbre",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Compuesta bipinnada"
+      }
+    },
+    "cuidados": {
+      "riego": "Bajo",
+      "luz": "Sol directo",
+      "suelo": "Poco exigente, tolera sequías"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Palo borracho",
+    "nombreCientifico": "Ceiba speciosa",
+    "familia": "Malvaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Noreste"
+    },
+    "descripcion": "Árbol muy ornamental con tronco verde abotellado cubierto de aguijones cónicos. Sus flores rosadas son espectaculares y el fruto libera una fibra sedosa llamada paina. Emblemático de las plazas y avenidas argentinas.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 8,
+        "maxima": 20
+      },
+      "tipo": "Árbol",
+      "floracion": {
+        "epoca": "Otoño",
+        "color": "Rosa a blanco"
+      },
+      "fruto": {
+        "tipo": "Cápsula con fibra sedosa",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Compuesta palmada"
+      }
+    },
+    "cuidados": {
+      "riego": "Moderado",
+      "luz": "Sol directo",
+      "suelo": "Bien drenado, tolera suelos pobres"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "Espinas pueden causar irritación"
+  },
+  {
+    "nombreComun": "Lavanda",
+    "nombreCientifico": "Lavandula angustifolia",
+    "familia": "Lamiaceae",
+    "origen": {
+      "continente": "Europa",
+      "pais": "Francia",
+      "region": "Mediterráneo"
+    },
+    "descripcion": "Arbusto aromático muy apreciado por su fragancia relajante y propiedades medicinales. Sus flores se utilizan en perfumería, aromaterapia y medicina natural. Excelente planta melífera que atrae abejas y mariposas.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 0.4,
+        "maxima": 0.8
+      },
+      "tipo": "Arbusto aromático",
+      "floracion": {
+        "epoca": "Primavera-Verano",
+        "color": "Violeta a azul"
+      },
+      "fruto": {
+        "tipo": "Núcula",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Perenne",
+        "forma": "Lanceolada, aromática"
+      }
+    },
+    "cuidados": {
+      "riego": "Bajo",
+      "luz": "Sol directo",
+      "suelo": "Calcáreo, bien drenado"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Romero",
+    "nombreCientifico": "Rosmarinus officinalis",
+    "familia": "Lamiaceae",
+    "origen": {
+      "continente": "Europa",
+      "pais": "España",
+      "region": "Mediterráneo"
+    },
+    "descripcion": "Arbusto aromático perenne muy utilizado como condimento culinario y por sus propiedades medicinales. Sus flores azules atraen abejas. Símbolo de la amistad y el recuerdo en la cultura mediterránea.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 0.6,
+        "maxima": 1.5
+      },
+      "tipo": "Arbusto aromático",
+      "floracion": {
+        "epoca": "Invierno-Primavera",
+        "color": "Azul violáceo"
+      },
+      "fruto": {
+        "tipo": "Núcula",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Perenne",
+        "forma": "Acicular, aromática"
+      }
+    },
+    "cuidados": {
+      "riego": "Bajo",
+      "luz": "Sol directo",
+      "suelo": "Calcáreo, bien drenado"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Cactus San Pedro",
+    "nombreCientifico": "Echinopsis pachanoi",
+    "familia": "Cactaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Perú",
+      "region": "Andes"
+    },
+    "descripcion": "Cactus columnar de rápido crecimiento, utilizado tradicionalmente en ceremonias andinas. Sus flores blancas nocturnas son espectaculares y muy perfumadas. Puede alcanzar varios metros de altura.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 2,
+        "maxima": 6
+      },
+      "tipo": "Cactus columnar",
+      "floracion": {
+        "epoca": "Verano",
+        "color": "Blanco"
+      },
+      "fruto": {
+        "tipo": "Baya",
+        "comestible": true
+      },
+      "hoja": {
+        "tipo": "Sin hojas (espinas)",
+        "forma": "Espinas cortas"
+      }
+    },
+    "cuidados": {
+      "riego": "Muy bajo",
+      "luz": "Sol directo",
+      "suelo": "Arenoso con excelente drenaje"
+    },
+    "estadoConservacion": "Casi amenazada",
+    "toxicidad": "Contiene alcaloides"
+  },
+  {
+    "nombreComun": "Cardón",
+    "nombreCientifico": "Stetsonia coryne",
+    "familia": "Cactaceae",
+    "origen": {
+      "continente": "América",
+      "pais": "Argentina",
+      "region": "Gran Chaco"
+    },
+    "descripcion": "Cactus columnar más grande del Chaco argentino. Puede alcanzar 10 metros de altura. Sus espinas muy largas le dan un aspecto único. La madera liviana se usa para artesanías. Florece de noche con flores blancas.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 4,
+        "maxima": 10
+      },
+      "tipo": "Cactus columnar",
+      "floracion": {
+        "epoca": "Primavera-Verano",
+        "color": "Blanco"
+      },
+      "fruto": {
+        "tipo": "Baya globosa",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Sin hojas (espinas largas)",
+        "forma": "Espinas de 8-10 cm"
+      }
+    },
+    "cuidados": {
+      "riego": "Muy bajo",
+      "luz": "Sol directo",
+      "suelo": "Arenoso, excelente drenaje"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Nenúfar blanco",
+    "nombreCientifico": "Nymphaea alba",
+    "familia": "Nymphaeaceae",
+    "origen": {
+      "continente": "Europa",
+      "pais": "Europa Central",
+      "region": "Aguas dulces templadas"
+    },
+    "descripcion": "Planta acuática de hojas flotantes y flores blancas perfumadas. Se abre durante el día y se cierra por la noche. Símbolo de pureza en muchas culturas. Sus hojas proporcionan sombra y refugio a peces.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 0,
+        "maxima": 0.2
+      },
+      "tipo": "Planta acuática",
+      "floracion": {
+        "epoca": "Primavera-Verano",
+        "color": "Blanco"
+      },
+      "fruto": {
+        "tipo": "Cápsula sumergida",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Perenne",
+        "forma": "Orbicular flotante"
+      }
+    },
+    "cuidados": {
+      "riego": "Acuática",
+      "luz": "Sol directo (mínimo 6 horas)",
+      "suelo": "Fondo fangoso rico en nutrientes"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Papiro",
+    "nombreCientifico": "Cyperus papyrus",
+    "familia": "Cyperaceae",
+    "origen": {
+      "continente": "África",
+      "pais": "Egipto",
+      "region": "Valle del Nilo"
+    },
+    "descripcion": "Planta palustre histórica, utilizada en el antiguo Egipto para fabricar papel. Sus tallos pueden alcanzar 3 metros de altura. Crece en aguas poco profundas y sus raíces ayudan a purificar el agua.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 1.5,
+        "maxima": 3
+      },
+      "tipo": "Planta palustre",
+      "floracion": {
+        "epoca": "Verano",
+        "color": "Marrón verdoso"
+      },
+      "fruto": {
+        "tipo": "Aquenio",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Perenne",
+        "forma": "Brácteas en umbela"
+      }
+    },
+    "cuidados": {
+      "riego": "Muy alto (suelo saturado o sumergido)",
+      "luz": "Sol directo a media sombra",
+      "suelo": "Fangoso, rico en nutrientes"
+    },
+    "estadoConservacion": "No amenazada",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Orquídea Vanda",
+    "nombreCientifico": "Vanda coerulea",
+    "familia": "Orchidaceae",
+    "origen": {
+      "continente": "Asia",
+      "pais": "India",
+      "region": "Sudeste Asiático"
+    },
+    "descripcion": "Orquídea epífita de flores azul-violeta espectaculares. Crece sin tierra, absorbiendo nutrientes del aire y la humedad. Sus raíces aéreas son características. Muy apreciada en colecciones especializadas.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 0.5,
+        "maxima": 1
+      },
+      "tipo": "Orquídea epífita",
+      "floracion": {
+        "epoca": "Otoño",
+        "color": "Azul violeta"
+      },
+      "fruto": {
+        "tipo": "Cápsula",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Perenne",
+        "forma": "Coriácea, alterna"
+      }
+    },
+    "cuidados": {
+      "riego": "Alto (raíces aéreas diarias)",
+      "luz": "Indirecta brillante",
+      "suelo": "No requiere (epífita)"
+    },
+    "estadoConservacion": "En peligro",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Rosa Pierre de Ronsard",
+    "nombreCientifico": "Rosa 'Eden'",
+    "familia": "Rosaceae",
+    "origen": {
+      "continente": "Europa",
+      "pais": "Francia",
+      "region": "Cultivar moderno"
+    },
+    "descripcion": "Rosa trepadora moderna muy popular. Sus flores grandes y dobles son de color rosa crema con el centro más intenso. Muy fragante y resistente a enfermedades. Ideal para pérgolas y muros.",
+    "caracteristicas": {
+      "altura": {
+        "minima": 2,
+        "maxima": 3
+      },
+      "tipo": "Arbusto trepador",
+      "floracion": {
+        "epoca": "Primavera-Otoño",
+        "color": "Rosa crema"
+      },
+      "fruto": {
+        "tipo": "Escaramujo",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Caduca",
+        "forma": "Compuesta"
+      }
+    },
+    "cuidados": {
+      "riego": "Medio-Regular",
+      "luz": "Sol directo (mínimo 6 horas)",
+      "suelo": "Rico en materia orgánica, bien drenado"
+    },
+    "estadoConservacion": "No evaluada (cultivar)",
+    "toxicidad": "No tóxica"
+  },
+  {
+    "nombreComun": "Helecho arborescente",
+    "nombreCientifico": "Dicksonia antarctica",
+    "familia": "Dicksoniaceae",
+    "origen": {
+      "continente": "Oceanía",
+      "pais": "Australia",
+      "region": "Tasmania"
+    },
+    "descripcion": "Helecho arbóreo prehistórico que puede vivir más de 200 años. Su tronco fibroso está formado por raíces compactadas. Las frondas pueden alcanzar 3 metros de largo. Crecimiento muy lento (3-5 cm por año).",
+    "caracteristicas": {
+      "altura": {
+        "minima": 2,
+        "maxima": 15
+      },
+      "tipo": "Helecho arbóreo",
+      "floracion": {
+        "epoca": "No florece (reproduce por esporas)",
+        "color": "N/A"
+      },
+      "fruto": {
+        "tipo": "Esporas",
+        "comestible": false
+      },
+      "hoja": {
+        "tipo": "Perenne",
+        "forma": "Fronda bipinnada"
+      }
+    },
+    "cuidados": {
+      "riego": "Alto",
+      "luz": "Sombra parcial",
+      "suelo": "Rico en materia orgánica, ácido"
+    },
+    "estadoConservacion": "Casi amenazada",
+    "toxicidad": "No tóxica"
+  }
+]

@@ -1,0 +1,117 @@
+<div class="page-container">
+    <div class="page-header">
+        <h1><i class="fas fa-map-marked-alt"></i> Gestión de Zonas</h1>
+        <button class="btn btn-primary" onclick="showModal('createZonaModal')">
+            <i class="fas fa-plus"></i> Nueva Zona
+        </button>
+    </div>
+
+    <div class="filters">
+        <select id="filterTipo" class="filter-select" onchange="filterZonas()">
+            <option value="">Todos los tipos</option>
+            <option value="Jardín">Jardín</option>
+            <option value="Bosque">Bosque</option>
+            <option value="Invernadero">Invernadero</option>
+            <option value="Lago">Lago</option>
+            <option value="Sendero">Sendero</option>
+            <option value="Plaza">Plaza</option>
+            <option value="Otro">Otro</option>
+        </select>
+
+        <select id="filterEstado" class="filter-select" onchange="filterZonas()">
+            <option value="">Todos los estados</option>
+            <option value="Abierta">Abierta</option>
+            <option value="Cerrada">Cerrada</option>
+            <option value="Mantenimiento">Mantenimiento</option>
+        </select>
+
+        <input type="text" id="searchZona" class="search-input" placeholder="Buscar por nombre..." onkeyup="filterZonas()">
+    </div>
+
+    <div id="zonasContainer" class="cards-container">
+        <div class="loading-message">Cargando zonas...</div>
+    </div>
+</div>
+
+<!-- Modal para crear/editar zona -->
+<div id="createZonaModal" class="modal">
+    <div class="modal-content">
+        <div class="modal-header">
+            <h2 id="modalTitle"><i class="fas fa-map-marked-alt"></i> Nueva Zona</h2>
+            <span class="close" onclick="closeModal('createZonaModal')">&times;</span>
+        </div>
+        <form id="zonaForm" class="modal-form">
+            <input type="hidden" id="zonaId">
+            
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="nombre">Nombre *</label>
+                    <input type="text" id="nombre" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="tipo">Tipo *</label>
+                    <select id="tipo" required>
+                        <option value="">Seleccionar...</option>
+                        <option value="Jardín">Jardín</option>
+                        <option value="Bosque">Bosque</option>
+                        <option value="Invernadero">Invernadero</option>
+                        <option value="Lago">Lago</option>
+                        <option value="Sendero">Sendero</option>
+                        <option value="Plaza">Plaza</option>
+                        <option value="Otro">Otro</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcion">Descripción *</label>
+                <textarea id="descripcion" rows="3" required></textarea>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="extension">Extensión (m²) *</label>
+                    <input type="number" id="extension" required min="0">
+                </div>
+                
+                <div class="form-group">
+                    <label for="estado">Estado *</label>
+                    <select id="estado" required>
+                        <option value="Abierta">Abierta</option>
+                        <option value="Cerrada">Cerrada</option>
+                        <option value="Mantenimiento">Mantenimiento</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="latitud">Latitud *</label>
+                    <input type="number" id="latitud" step="0.000001" required placeholder="-31.416">
+                </div>
+                
+                <div class="form-group">
+                    <label for="longitud">Longitud *</label>
+                    <input type="number" id="longitud" step="0.000001" required placeholder="-64.183">
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="descripcionUbicacion">Descripción de Ubicación</label>
+                <input type="text" id="descripcionUbicacion" placeholder="Sector norte del parque">
+            </div>
+
+            <div class="form-actions">
+                <button type="button" class="btn btn-secondary" onclick="closeModal('createZonaModal')">
+                    Cancelar
+                </button>
+                <button type="submit" class="btn btn-primary">
+                    <i class="fas fa-save"></i> Guardar
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+<script src="/js/zonas.js"></script>

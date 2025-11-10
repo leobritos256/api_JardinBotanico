@@ -1,0 +1,148 @@
+[
+  {
+    "nombre": "Jardín de Cactáceas",
+    "tipo": "Jardín",
+    "descripcion": "Zona especializada en cactus y suculentas de diferentes regiones desérticas del mundo. Cuenta con más de 100 variedades organizadas por origen geográfico, incluyendo especies de Argentina, México y África.",
+    "extension": 1800,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4158,
+        "longitud": -64.1832
+      },
+      "descripcionUbicacion": "Sector norte del parque, adyacente al Bosque Nativo"
+    },
+    "estado": "Abierta",
+    "mapaUrl": "/images/jardin-cactaceas.jpg"
+  },
+  {
+    "nombre": "Bosque Nativo Cordobés",
+    "tipo": "Bosque",
+    "descripcion": "Área de conservación con especies autóctonas de la región de Córdoba. Incluye algarrobos, talas, espinillos, chañares y molles característicos del bosque chaqueño serrano. Senderos interpretativos con cartelería educativa.",
+    "extension": 12000,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4172,
+        "longitud": -64.1848
+      },
+      "descripcionUbicacion": "Sector oeste del parque, zona de mayor extensión"
+    },
+    "estado": "Abierta"
+  },
+  {
+    "nombre": "Jardín de Plantas Aromáticas y Medicinales",
+    "tipo": "Jardín",
+    "descripcion": "Colección de plantas aromáticas y medicinales organizadas por familias botánicas. Incluye lavanda, romero, menta, albahaca, tomillo, salvia y orégano. Ideal para talleres educativos.",
+    "extension": 950,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4164,
+        "longitud": -64.1838
+      },
+      "descripcionUbicacion": "Sector sur del parque, junto al área de picnic"
+    },
+    "estado": "Abierta",
+    "mapaUrl": "/images/jardin-aromaticas.jpg"
+  },
+  {
+    "nombre": "Invernadero Tropical",
+    "tipo": "Invernadero",
+    "descripcion": "Invernadero climatizado con especies tropicales de todo el mundo. Temperatura y humedad controladas para recrear ambientes de selva tropical. Alberga orquídeas, bromelias, helechos arbóreos y plantas carnívoras.",
+    "extension": 850,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4165,
+        "longitud": -64.1825
+      },
+      "descripcionUbicacion": "Zona central del parque, cerca de la entrada principal"
+    },
+    "estado": "Abierta",
+    "mapaUrl": "/images/invernadero-tropical.jpg"
+  },
+  {
+    "nombre": "Jardín Acuático",
+    "tipo": "Jardín",
+    "descripcion": "Estanques y espejos de agua con plantas acuáticas y palustres. Incluye nenúfares, lotos, papiros, juncos y lirios de agua. Hábitat de peces ornamentales, ranas y diversas especies de aves acuáticas.",
+    "extension": 1200,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4167,
+        "longitud": -64.1842
+      },
+      "descripcionUbicacion": "Sector este del parque, zona baja con acumulación natural de agua"
+    },
+    "estado": "Abierta",
+    "mapaUrl": "/images/jardin-acuatico.jpg"
+  },
+  {
+    "nombre": "Jardín de Rosas Históricas",
+    "tipo": "Jardín",
+    "descripcion": "Hermoso jardín con más de 80 variedades de rosas antiguas y modernas de diferentes colores y fragancias. Cuenta con pérgolas, senderos serpenteantes y bancos para disfrutar del paisaje. Floración principal en primavera.",
+    "extension": 2200,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4160,
+        "longitud": -64.1835
+      },
+      "descripcionUbicacion": "Sector este del parque, cerca de la entrada principal"
+    },
+    "estado": "Abierta",
+    "mapaUrl": "/images/jardin-rosas.jpg"
+  },
+  {
+    "nombre": "Zona de Restauración Ecológica",
+    "tipo": "Área de Conservación",
+    "descripcion": "Área en proceso de rehabilitación y reforestación con especies nativas. Actualmente cerrada al público por trabajos de restauración del suelo y plantación de especies autóctonas amenazadas.",
+    "extension": 5500,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4175,
+        "longitud": -64.1830
+      },
+      "descripcionUbicacion": "Sector noreste del parque, zona de pendiente pronunciada"
+    },
+    "estado": "En Mantenimiento"
+  },
+  {
+    "nombre": "Sendero del Río",
+    "tipo": "Sendero",
+    "descripcion": "Recorrido interpretativo de 1.5 km siguiendo el arroyo que atraviesa el parque. Incluye puentes de madera, miradores y estaciones de observación de fauna. Ideal para avistamiento de aves y educación ambiental.",
+    "extension": 3800,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4169,
+        "longitud": -64.1845
+      },
+      "descripcionUbicacion": "Atraviesa el sector oeste siguiendo el curso del arroyo"
+    },
+    "estado": "Abierta"
+  },
+  {
+    "nombre": "Huerta Educativa Orgánica",
+    "tipo": "Huerta",
+    "descripcion": "Espacio demostrativo de técnicas de agricultura orgánica y permacultura. Incluye canteros elevados, composteras, sistema de riego por goteo y zona de lombricultura. Disponible para talleres y visitas escolares.",
+    "extension": 750,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4162,
+        "longitud": -64.1827
+      },
+      "descripcionUbicacion": "Sector sur del parque, junto al vivero"
+    },
+    "estado": "Abierta",
+    "mapaUrl": "/images/huerta-organica.jpg"
+  },
+  {
+    "nombre": "Plaza de los Jacarandás",
+    "tipo": "Plaza",
+    "descripcion": "Amplia plaza arbolada con predominancia de jacarandás que ofrecen un espectacular espectáculo floral violeta en primavera. Cuenta con bancos, área de sombra y césped para actividades recreativas.",
+    "extension": 1600,
+    "ubicacion": {
+      "coordenadas": {
+        "latitud": -31.4163,
+        "longitud": -64.1829
+      },
+      "descripcionUbicacion": "Zona central del parque, punto de encuentro principal"
+    },
+    "estado": "Abierta"
+  }
+]
