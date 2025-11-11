@@ -198,7 +198,9 @@ El servidor se ejecutará en: `http://localhost:3000`
 
 ## 👥 Integrantes del Grupo
 
-[Agregar nombres de los integrantes aquí]
+- Quiroga, Alexis Baltazar
+- Perez, Rodrigo Damian
+- Britos, Leonel Ivan
 
 ## 📝 Notas de Desarrollo
 
